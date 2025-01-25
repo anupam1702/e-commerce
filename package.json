@@ -12,6 +12,7 @@
     "@fontsource/inter": "^5.1.1",
     "@fontsource/oswald": "^5.1.1",
     "@fontsource/poppins": "^5.1.1",
+    "@react-google-maps/api": "^2.20.5",
     "next": "15.1.6",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
