@@ -9,9 +9,21 @@ export default {
   theme: {
     extend: {
       colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
+        "background": "var(--background)",
+        "foreground": "var(--foreground)",
+        "custom-red": " #C31807",
+        "custom-green":' #08483A',
+        "custom-bg-fan":' #FFF9EA',
+        "custom-orange":' #FBBA14',
+
+
+
       },
+      fontFamily: {
+        inter: ['Inter Tight','Poppins', 'sans-serif'],
+        poppins:['Poppins','sans-serif'],
+        oswald: ['Oswald', 'sans-serif'], // Add the Inter Tight font
+      },  
     },
   },
   plugins: [],
