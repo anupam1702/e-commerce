@@ -73,8 +73,8 @@ const Page = () => {
         <div className="w-full max-w-lg p-8 bg-white rounded-2xl shadow-md">
           <h1 className="text-4xl font-bold font-intel mb-4">Do You Need Help?</h1>
           <p className="text-sm text-gray-600  mb-6">
-            If you'd like further information about Chakh Kar Dekho, please get in
-            touch. Simply fill out the form, include your message, and we'll get
+            If you&apos;d like further information about Chakh Kar Dekho, please get in
+            touch. Simply fill out the form, include your message, and we&apos;ll get
             back to you as soon as we can.
           </p>
           <form className="space-y-4">

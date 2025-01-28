@@ -1,6 +1,6 @@
 import Image from 'next/image'
 import React from 'react'
-import Image1 from '../public/Image1.png'
+// import Image1 from '../public/Image1.png'
 import logo from '../../public/Logo.png'
 import Link from 'next/link'
 import { CiSearch } from "react-icons/ci";

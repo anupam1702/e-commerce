@@ -4,9 +4,9 @@ import logo from '../../public/Logo.png';
 import Link from 'next/link';
 import { CiSearch } from 'react-icons/ci';
 import Image from 'next/image';
-import img from '../../public/DSC09773.png';
-import LocationMap from '../../components/LocationMap'
-import Footer from '../../components/Footer'
+// import img from '../../public/DSC09773.png';
+// import LocationMap from '../../components/LocationMap'
+// import Footer from '../../components/Footer'
 
 const page = () => {
   return (

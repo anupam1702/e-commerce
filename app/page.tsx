@@ -1,11 +1,11 @@
 'use client'
-import Link from "next/link";
-import { CiSearch, CiHeart, CiUser } from "react-icons/ci";
-import { RiShoppingBag2Line } from "react-icons/ri";
+// import Link from "next/link";
+// import { CiSearch, CiHeart, CiUser } from "react-icons/ci";
+// import { RiShoppingBag2Line } from "react-icons/ri";
 import { FaTruck, FaHeadset, FaShieldAlt, FaRocket } from "react-icons/fa";
-import logo from '../public/Logo.png'
+// import logo from '../public/Logo.png'
 import Image from "next/image";
-import Image1 from '../public/Image1.png'
+// import Image1 from '../public/Image1.png'
 import '@fontsource/inter/';
 import '@fontsource/poppins/600.css'; // Semi-bold weight
 import './globals.css';
@@ -14,8 +14,8 @@ import '@fontsource/poppins'; // Defaults to all weights and styles
 import '@fontsource/poppins/400.css'; // Regular weight
 import '@fontsource/poppins/700.css';
 import shop_by_category from '../public/shop_by_category.png'
-import comingSoon from '../public/coming_soon.png'
-import chutney from '../public/Garlic Chutney (1) (1) 1.png'
+// import comingSoon from '../public/coming_soon.png'
+// import chutney from '../public/Garlic Chutney (1) (1) 1.png'
 import TalkOfTown from "@/components/TalkOfTown";
 import BestCombo from "@/components/BestCombo";
 import chakKrDekho from '../public/chak_kr_dekho.png'
@@ -25,41 +25,41 @@ import CustomerHome from "@/components/CustomerHome";
 import Footer from '@/components/Footer'
 import Navbar from "@/components/Navbar";
 import s_first from '../public/image (4).png'
-import s_second from '../public/image (5).png'
-import s_third from '../public/image (6).png'
-import s_forth from '../public/image (7).png'
-import s_fivth from '../public/image (8).png'
-import s_sixth from '../public/image (9).png'
-import { useState, useRef } from 'react';
+// import s_second from '../public/image (5).png'
+// import s_third from '../public/image (6).png'
+// import s_forth from '../public/image (7).png'
+// import s_fivth from '../public/image (8).png'
+// import s_sixth from '../public/image (9).png'
+// import { useState, useRef } from 'react';
 import { FaChevronLeft, FaChevronRight } from 'react-icons/fa';
 import mango_pickle from '../public/mango_pickle.png'
 
 
 export default function Home() {
 
-  const [isBestSellers, setIsBestSellers] = useState(true);
-  const scrollContainerRef = useRef(null);
+  // const [isBestSellers, setIsBestSellers] = useState(true);
+  // const scrollContainerRef = useRef(null);
 
-  const handleBestSellersClick = () => setIsBestSellers(true);
-  const handleNewLaunchesClick = () => setIsBestSellers(false);
+  // const handleBestSellersClick = () => setIsBestSellers(true);
+  // const handleNewLaunchesClick = () => setIsBestSellers(false);
 
-  const scrollLeft = () => {
-    if (scrollContainerRef.current) {
-      scrollContainerRef.current.scrollBy({
-        left: -300, // Adjust the scroll distance as needed
-        behavior: 'smooth',
-      });
-    }
-  };
+  // const scrollLeft = () => {
+  //   if (scrollContainerRef.current) {
+  //     scrollContainerRef.current.scrollBy({
+  //       left: -300, // Adjust the scroll distance as needed
+  //       behavior: 'smooth',
+  //     });
+  //   }
+  // };
 
-  const scrollRight = () => {
-    if (scrollContainerRef.current) {
-      scrollContainerRef.current.scrollBy({
-        left: 300, // Adjust the scroll distance as needed
-        behavior: 'smooth',
-      });
-    }
-  };
+  // const scrollRight = () => {
+  //   if (scrollContainerRef.current) {
+  //     scrollContainerRef.current.scrollBy({
+  //       left: 300, // Adjust the scroll distance as needed
+  //       behavior: 'smooth',
+  //     });
+  //   }
+  // };
   return (
     <>
       <Navbar/>
@@ -159,13 +159,13 @@ export default function Home() {
           <div className="mt-12">
             <button
               className="px-8 py-2 bg-green-900 rounded-full border text-white mx-4"
-              onClick={handleBestSellersClick}
+              
             >
               Best Sellers
             </button>
             <button
               className="border border-red-900 text-red-900 bg-white px-6 py-2 rounded-full hover:bg-brown-500 hover:text-white transition"
-              onClick={handleNewLaunchesClick}
+             
             >
               New Launches
             </button>
@@ -177,14 +177,14 @@ export default function Home() {
           {/* Scroll Left Button */}
           <button
             className="absolute left-0 top-1/2 transform -translate-y-1/2 text-white bg-gray-800 rounded-full p-2"
-            onClick={scrollLeft}
+            
           >
             <FaChevronLeft />
           </button>
 
           {/* Scrollable Grid */}
           <div
-            ref={scrollContainerRef}
+            
             className="overflow-x-auto py-8"
           >
             <div className="flex space-x-8">
@@ -197,7 +197,7 @@ export default function Home() {
           {/* Scroll Right Button */}
           <button
             className="absolute right-0 top-1/2 transform -translate-y-1/2 text-white bg-gray-800 rounded-full p-2"
-            onClick={scrollRight}
+            
           >
             <FaChevronRight />
           </button>

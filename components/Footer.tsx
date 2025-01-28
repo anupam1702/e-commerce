@@ -1,9 +1,9 @@
 import React from 'react'
-import bg_image from '../public/BG.png'
+// import bg_image from '../public/BG.png'
 import Image from 'next/image'
 import Link from "next/link";
-import { BsTelegram } from "react-icons/bs";
-import { FaFacebook, FaTwitter, FaInstagram, FaLinkedin } from "react-icons/fa";
+// import { BsTelegram } from "react-icons/bs";
+// import { FaFacebook, FaTwitter, FaInstagram, FaLinkedin } from "react-icons/fa";
 import logo from '../public/Logo.png'
 import '@fontsource/poppins'; // Defaults to all weights and styles
 // OR import specific weights and styles for optimized loading
