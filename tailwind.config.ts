@@ -15,6 +15,7 @@ export default {
         "custom-green":' #08483A',
         "custom-bg-fan":' #FFF9EA',
         "custom-orange":' #FBBA14',
+        "custom-button-filter":' #004C371A'
 
 
 
